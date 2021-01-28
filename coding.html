@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="description" content="Portfolio">
+        <meta name="keywords" content="PsN Pradhuman Portfolio Resume CV">
+        <meta name="author" content="Pradhuman">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+        <!-- Google web font "Open Sans" -->
+        <link rel="stylesheet" href="css/all-minified.css" />
+        <link rel="stylesheet" href="css/all-sub-minified.css" />
+        <link rel="stylesheet" href="css/coding-style.css" />
+        <title>PsN Portfolio</title>
+    </head>
+    <body>
+        <!-- PRE LOADER -->
+        <!-- <div class="preloader">
+            <div class="spinner-border text-warning" role="status">
+                <span class="sr-only"></span>
+            </div>
+        </div> -->
+        <!-- Navigation Section -->
+        <nav class="navbar navbar-expand-md navbar-light fixed-top custom-navbar" role="navigation">
+            <a href="index.html" class="navbar-brand">PsN</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto nav-custom">
+                    <li class="nav-item">
+                        <a class="nav-link smoothScroll" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link smoothScroll" href="#github-activity">Skills & Activity</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link smoothScroll" href="#webd">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="document/Pradhuman-Resume.pdf" target="_blank" download>CV</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- MAIN BODY -->
+        <div class="columns-bg">
+            <!-- Logo & Intro -->
+            <section id="logo" class="tm-section-logo">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-12 offset-sm-0 col-md-6 offset-md-6">
+                            <div class="tm-site-name-container">
+                                <div class="tm-site-name-container-inner">
+                                    <h1 class="text-uppercase tm-text-primary tm-site-name wow fadeInUp" data-wow-delay="0.3s">
+                                        Coding Skills
+                                    </h1>
+                                    <p class="tm-text-primary tm-site-description">
+                                        <!-- About My Coding Skills & Activity -->
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Intro -->
+            <section id="intro" class="tm-p-1-section-1">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="tm-section-text-container">
+                                <i class="tm-text-white">
+                                    <p class="mb-0 wow fadeInUp" data-wow-delay="0.6s">
+                                        I am a penultimate year student who is understanding the working of various segments of code to present a complete picture. Currently interested in Machine learning while working on this website and Page Rank as my project.<br>
+                                        All images used below have been modified to custom preference.
+                                    </p>
+                                </i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- GITHUB ACTIVITY -->
+            <section id="github-activity" class="our_place">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-6 tm-section-image-container tm-img-left-container wow fadeInUp" data-wow-delay="1s">
+                            <!-- <img src="images/forty_image_01.jpg" alt="Image" class="img-fluid" /> -->
+                            <canvas id="myChart"></canvas>
+                        </div>
+                        <div class="col-md-12 col-lg-6">
+                            <div class="tm-section-text-container-2">
+                                <h2 class="tm-text-primary tm-section-title-mb tm-sm-bg-white-alpha wow fadeInUp" data-wow-delay="0.6s" >
+                                    Github Activity
+                                </h2>
+                                <div class="tm-text-gray">
+                                    <p class="mb-4 wow fadeInUp" data-wow-delay="0.8s">
+                                        This section represents activity on <a href="https://github.com/gaulghost?tab=repositories">my github profile</a> spanning last few weeks. The graph is created using <a href="https://www.chartjs.org">Chart Js</a> library and then modified using Github API to obtain values.
+                                    </p>
+                                    <p class="mb-0 wow fadeInUp" data-wow-delay="1s">
+                                        Graph's y axis represents the contributions made during that period of time, While x axis represents the duration in which contributions were made.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- PROJECTS -->
+            <section id="projects" class="tm-section-4 section_4">
+                <div class="container-fluid">
+                    <div class="row flex-column-reverse flex-lg-row">
+                        <div class="col-md-12 col-lg-6 tm-text-left-container">
+                            <div class="tm-section-text-container-3 tm-bg-white-alpha h-100">
+                                <h2 class="tm-text-accent tm-section-title-mb wow fadeInUp" data-wow-delay="0.3s">
+                                    Skills Section
+                                </h2>
+                                <p class="mb-0 wow fadeInUp" data-wow-delay="0.6s">
+                                    Graph represents the measure of skills that I have to that of what I believe is required as decent beginner.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-6 tm-section-image-container tm-img-right-container wow fadeInUp" data-wow-delay="0.6s">
+                            <!-- <img src="images/forty_image_02.jpg" alt="Image" class="img-fluid tm-img-right"/> -->
+                            <canvas id='myChart2'></canvas>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Beautiful Rollovers || PRESENTATIONS -->
+            <section id="gallery">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 tm-section-title-mb tm-gallery-title-col ">
+                            <h2 class="tm-section-title-2 wow fadeInUp" data-wow-delay="0.3s">Project Presentations</h2>
+                            <hr class="tm-section-title-underline wow fadeInUp" data-wow-delay="0.3s"/>
+                        </div>
+                        <div class="col-12">
+                            <div class="grid wow fadeInUp" data-wow-delay="0.6s">
+                                <figure class="effect-duke mb-3">
+                                    <img src="images/portfolio_ppt.jpg" alt="Image" class="img-fluid"/>
+                                    <figcaption>
+                                        <h2>Front-End Project <span>PDF</span></h2>
+                                        <p>Briefing out portfolio template in pdf.</p>
+                                        <a href="document/Portfolio-PDF.pdf" target="_blank">View more</a>
+                                    </figcaption>
+                                </figure>
+                                <figure class="effect-duke">
+                                    <img src="images/oops-c++.jpg" alt="Image" class="img-fluid"/>
+                                    <figcaption>
+                                        <h2>C++ Project<span>PDF</span></h2>
+                                        <p>Will be uploaded soon.</p>
+                                        <a href="#">View more</a>
+                                    </figcaption>
+                                </figure>
+                                <figure class="effect-duke mb-3">
+                                    <img src="images/python.jpg" alt="Image" class="img-fluid"/>
+                                    <figcaption>
+                                        <h2>Python Project <span>PDF</span></h2>
+                                        <p>Will be uploaded soon.</p>
+                                        <a href="#">View more</a>
+                                    </figcaption>
+                                </figure>
+                                <figure class="effect-duke">
+                                    <img src="images/ml-course.jpg" alt="Image" class="img-fluid"/>
+                                    <figcaption>
+                                        <h2>ML Project <span>PDF</span></h2>
+                                        <p>Will be uploaded soon.</p>
+                                        <a href="#">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="col-md-6 tm-section-col-4">
+                            <div class="tm-section-text-container-4">
+                                <p class="tm-text-secondary mb-0 wow fadeInUp" data-wow-delay="1s">
+                                    I have put up some presentations regarding my ongoing/latest projects.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- WEB-D -->
+            <section id="webd" class="our_place">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-6 tm-section-image-container tm-img-left-container wow fadeInUp" data-wow-delay="1s" >
+                            <img src="images/webd.png" alt="Image" class="img-fluid" />
+                        </div>
+                        <div class="col-md-12 col-lg-6">
+                            <div class="tm-section-text-container-2">
+                                <h2 class="tm-text-primary tm-section-title-mb tm-sm-bg-white-alpha wow fadeInUp" data-wow-delay="0.3s">
+                                    WEB-D Projects
+                                </h2>
+                                <div class="tm-text-gray">
+                                    <p class="mb-4 wow fadeInUp" data-wow-delay="0.6s">
+                                        Section represents <a href="https://github.com/gaulghost?tab=repositories">my projects</a>, developed using HTML5, CSS3, Js and frameworks. The projects are made keeping accessibility issue in mind so that it can cover wider masses.
+                                    </p>
+                                    <p class="mb-0 wow fadeInUp" data-wow-delay="0.8s">
+                                        Some projects :-
+                                    </p>
+                                    <ul>
+                                        <li><a href="https://github.com/gaulghost/online-conf">Online-Conf </a><a href="https://online-conf.com"><i class="fa fa-globe"></i></a></li>
+                                        <li><a href="https://github.com/gaulghost/gaulghost.github.io">Portfolio Website </a><a href="index.html"><i class="fa fa-globe"></i></a></li>
+                                        <li><a href="https://github.com/gaulghost/wd4e">Ultimate Frisbee </a><a href="https://gaulghost.github.io/wd4e/index.html"><i class="fa fa-globe"></i></a></li>
+                                        <!-- <li><a href="#">Project 3</a></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- PYTHON -->
+            <section id="python" class="tm-section-4 section_4">
+                <div class="container-fluid">
+                    <div class="row flex-column-reverse flex-lg-row">
+                        <div class="col-md-12 col-lg-6 tm-text-left-container">
+                            <div class="tm-section-text-container-3 tm-bg-white-alpha h-100">
+                                <h2 class="tm-text-accent tm-section-title-mb wow fadeInUp" data-wow-delay="0.3s">
+                                    Python Projects
+                                </h2>
+                                <p class="mb-4 wow fadeInUp" data-wow-delay="0.6s">
+                                    Section represents <a href="https://github.com/gaulghost?tab=repositories">my projects</a> developed using python. Projects include application of Data Structures, Network Application Program Interface and Databases for Data retrieval, processing and visualization.
+                                </p>
+                                <p class="mb-0 wow fadeInUp" data-wow-delay="0.8s">
+                                    Some projects :-
+                                </p>
+                                <ul>
+                                    <li><a href="https://github.com/gaulghost/PageRank">PageRank</a></li>
+                                    <li><a href="https://github.com/gaulghost/WebCrawlerIMDb">IMDb Crawler</a></li>
+                                    <li><a href="https://github.com/gaulghost/MainOperations">Operations</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-6 tm-section-image-container tm-img-right-container wow fadeInUp" data-wow-delay="0.8s">
+                            <img src="images/python.png" alt="Image" class="img-fluid tm-img-right"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- C/C++ -->
+            <section id="clang" class="our_place">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-6 tm-section-image-container tm-img-left-container wow fadeInUp" data-wow-delay="1s" >
+                            <img src="images/c++.png" alt="Image" class="img-fluid" />
+                        </div>
+                        <div class="col-md-12 col-lg-6">
+                            <div class="tm-section-text-container-2">
+                                <h2 class="tm-text-primary tm-section-title-mb tm-sm-bg-white-alpha wow fadeInUp" data-wow-delay="0.3s">
+                                    C/C++ Projects
+                                </h2>
+                                <div class="tm-text-gray">
+                                    <p class="mb-4 wow fadeInUp" data-wow-delay="0.6s">
+                                        This section represents <a href="https://github.com/gaulghost?tab=repositories">my projects</a> that were developed using C/C++.
+                                    </p>
+                                    <p class="mb-0 wow fadeInUp" data-wow-delay="0.8s">
+                                        Some projects :-
+                                    </p>
+                                    <ul>
+                                        <li><a href="https://github.com/gaulghost/ImageTransform">Image Transform</a></li>
+                                        <li><a href="https://github.com/gaulghost/creditCardRecognizer">Credit Card Recognizer</a></li>
+                                        <li><a href="https://github.com/gaulghost/USEnglishGrade">US Grade Text</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- Footer Section -->
+        <footer id="footer-stickey">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="wow fadeInUp footer-copyright" data-wow-delay="1s">
+                            <p>Copyright &copy; 2020 PsN
+                                | Design: <a href="index.html" target="_parent">Pradhuman</a>
+                            </p>
+                        </div>
+                        <ul class="wow fadeInUp social-icon" data-wow-delay="1.6s">
+                            <li><a href="mailto:singh.psn12@gmail.com?subject=Reaching%20Out&body=Hello,%20pradhuman%0D%0A%0D%0A%0D%0ARegards,%20Name." class="fa fa-google">.</a></li>
+                            <li><a href="https://github.com/gaulghost" class="fa fa-github">.</a></li>
+                            <li><a href="https://www.linkedin.com/in/psn-1202" class="fa fa-linkedin">.</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- DOTTED NAV -->
+        <div id="fp-nav" class="right">
+            <ul>
+                <li>
+                    <a href="#logo" class="smoothScroll"><span>.</span></a>
+                </li>
+                <li>
+                    <a href="#github-activity" class="smoothScroll"><span>.</span></a>
+                </li>
+                <li>
+                    <a href="#webd" class="smoothScroll"><span>.</span></a>
+                </li>
+            </ul>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.0.0-alpha/Chart.min.js"></script>
+        <script src="js/all-minified.js"></script>
+        <script>
+            let myChart = document.getElementById('myChart').getContext('2d');
+
+            let massPopChart = new Chart(myChart, {
+                type:'line', // bar, horizontalBar, pie, line, doghnut, radar, polarArea
+                data:{
+                    labels:['Week1', 'Week2', 'Week3', 'Week4', 'Week5'],
+                    datasets:[{
+                        label:'Contributions Made',
+                        data:[
+                            26,
+                            0,
+                            17,
+                            12,
+                            20
+                        ],
+                        backgroundColor:[
+                            'rgba(255, 99, 132, 0.6)',
+                        ]
+                    }],
+                },
+                options:{
+                    title:{
+                        display:true,
+                        text:'My Github Contributions',
+                        fontSize:20
+                    },
+                    legend:{
+                        display: false
+                    }
+                }
+            });
+
+            let myChart2 = document.getElementById('myChart2').getContext('2d');
+            let massPopChart2 = new Chart(myChart2, {
+                type:'horizontalBar', // bar, horizontalBar, pie, line, doghnut, radar, polarArea
+                data:{
+                    labels:['Python', 'WEB-D', 'C/C++'],
+                    datasets:[{
+                        label:'Proficiency',
+                        data:[
+                            60,
+                            60,
+                            50
+                        ],
+                        backgroundColor:[
+                            'rgba(54, 162, 235, 0.6)',
+                            'rgba(255, 206, 86, 0.6)',
+                            'rgba(75, 192, 192, 0.6)'
+                        ]
+                    }],
+                },
+                options:{
+                    title:{
+                        display:true,
+                        text:'Coding Languages',
+                        fontSize:20
+                    },
+                    legend:{
+                        // display: false
+                    }
+                }
+            });
+        </script>
+    </body>
+</html>

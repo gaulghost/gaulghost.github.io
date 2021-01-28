@@ -1,0 +1,35 @@
+/* styling for Coding page */
+
+#webd .mb-0,
+#python .mb-0,
+#clang .mb-0{
+    color: #000;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+#webd i{
+    color: rgba(0, 0, 255, 0.5);
+}
+
+#gallery figcaption h2{
+    color: rgba(0, 0, 0, 1);
+}
+
+#gallery figcaption p{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#clang img{
+    margin-top: -5%;
+    width:100%;
+    max-width: 450px;
+}
+
+#webd img{
+    margin-top: 5%;
+}
+
+#python img{
+    margin-top: -5%;
+}

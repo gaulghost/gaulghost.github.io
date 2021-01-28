@@ -1,0 +1,30 @@
+/* Styling for Designing/gallery page */
+.fitting figure{
+    min-height: 168.5px;
+}
+
+@media (min-width: 992px) {
+    .fitting figure{
+        width:50%;
+        max-height: 348.75px;
+        min-height: 325.5px;
+    }
+}
+
+.fitting img{
+    object-fit: contain;
+}
+
+.fitting figcaption p{
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#about-design .tm-section-image-container img{
+    width: 500px;
+}
+
+/* css object-fit: contain; */

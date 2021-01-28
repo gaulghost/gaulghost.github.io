@@ -1,0 +1,418 @@
+/*---------------------------------------
+    Home section
+-----------------------------------------*/
+
+#home h1 {
+  padding-bottom: 18px;
+}
+
+#home .col-lg-6 {
+  background: #f1e2d7;
+/* light blue color: #c3eafd; */
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#home .home-img {
+  background: url('../images/home-img.jpg') no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 100vh;
+}
+
+#home .home-thumb {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 45px 0 45px;
+}
+
+#home .section-title h4{
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 600;
+    font-size: 16px
+}
+
+#home .section-title p{
+    font-weight: 500;
+    font-size: 18px;
+    padding-right: 20px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#home .section-title h1{
+    color: rgba(0, 0, 0, 1);
+}
+
+
+/*---------------------------------------
+   About section
+-----------------------------------------*/
+
+#about .about-img {
+    background: url('../images/about-img.jpg') no-repeat;
+}
+
+#about .about-thumb,
+#about .skill-thumb {
+  padding: 22px 32px 32px 32px;
+}
+
+#about .about-thumb .myname{
+    color: #157A6E;
+    font-weight: 400;
+}
+
+#about .writtenup p{
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 5px;
+}
+
+#about .skill-thumb h2,
+#about .skill-thumb p{
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+#about .skills-thumb span{
+    color: #000;
+}
+
+#about .progress {
+  background: #ffffff;
+  border-radius: 0px;
+  box-shadow: none;
+  height: 2px;
+}
+
+#about .progress-bar-primary {
+  background: #232B2B;
+}
+
+#about strong,
+#about span {
+  font-weight: bold;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+
+
+/*---------------------------------------
+    Service section
+-----------------------------------------*/
+
+#service {
+  background: #E9724C;
+}
+
+#service p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+#service #service-coding a{
+    color: #157A6E;
+}
+
+#service #service-designing a{
+    color: #231F20;
+}
+
+#service .service-thumb {
+  padding: 52px 22px 52px 22px;
+}
+
+#service .service-thumb a{
+  font-weight: 500;
+}
+
+#service .service-thumb .fa {
+  font-size: 42px;
+  padding-bottom: 22px;
+}
+
+
+
+/*---------------------------------------
+    Experience section
+-----------------------------------------*/
+
+#experience .experience-img {
+  background: url('../images/experience-img.jpg') no-repeat;
+}
+
+#experience .media-heading {
+  margin-bottom: 0px;
+}
+
+#experience .media .fa {
+  font-size: 42px;
+  margin-right: 14px;
+}
+
+#experience small{
+  color: #030099;
+  font-weight: bold;
+}
+
+#experience p a{
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#experience .experience-thumb h2,
+#experience .experience-thumb h3,
+#experience .experience-thumb p,
+#experience .experience-thumb i{
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
+/*---------------------------------------
+    Education section
+-----------------------------------------*/
+
+#education {
+  background: #E3AE57;
+}
+
+#education .education-thumb p,
+#education .education-thumb h2,
+#education .education-thumb h3,
+#education .education-thumb i{
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+#education .education-img {
+  background: url('../images/education-img.jpg') no-repeat;
+}
+
+#education .media-heading {
+  margin-bottom: 0px;
+}
+
+#education .media .fa {
+  font-size: 42px;
+  margin-right: 14px;
+}
+
+#education small {
+  color: #89023E;
+  font-weight: bold;
+}
+
+#education p a{
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
+/*---------------------------------------
+   Quotes section
+-----------------------------------------*/
+
+#quotes {
+    background: url('../images/quotes-bg.jpg') 50% 0 repeat-y fixed;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    position: relative;
+    padding: 100px 0px;
+}
+
+#quotes .overlay {
+    background: #121212;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.7;
+}
+
+#quotes .fa {
+  font-size: 42px;
+  margin-top: 32px;
+  margin-bottom: 22px;
+}
+
+#quotes p {
+  padding-top: 32px;
+  font-size: 20px;
+}
+
+
+/*---------------------------------------
+    Contact section
+-----------------------------------------*/
+
+#contact {
+  background: #E9724C;
+}
+
+#contact .contact-form,
+#contact .contact-thumb {
+  padding: 22px 32px 22px 32px;
+  min-height: 75vh;
+}
+
+#contact .contact-form a {
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 600;
+}
+
+#contact .contact-img {
+  background: url('../images/contact-img.jpg') no-repeat;
+  min-height: 75vh;
+}
+
+#contact .contact-info {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+#contact .section-title p{
+    font-size: 18px;
+    color: #000000;
+    font-weight: 400;
+}
+
+#contact .form-control::-moz-placeholder{color:#ffffff;opacity:1}
+#contact .form-control:-ms-input-placeholder{color:#ffffff}
+#contact .form-control::-webkit-input-placeholder{color:#ffffff}
+
+#contact .form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #E3AE57;
+  border-radius: 0px;
+  box-shadow: none;
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  transition: all 0.4s ease-in-out;
+}
+
+#contact .form-control:focus {
+  border-bottom-color: #ffffff;
+}
+
+#contact input {
+  height: 45px;
+}
+
+#contact input[type="submit"] {
+  background: #ffffff;
+  border: 2px solid transparent;
+  border-radius: 40px;
+  color: #161616;
+  padding-bottom: 10px;
+}
+
+#contact input[type="submit"]:hover {
+  background: transparent;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+#contact .fa {
+  padding-right: 10px;
+}
+
+#contact label{
+	font-size: 18px;
+    color: #0A0A0A ;
+    font-weight: 700;
+}
+
+#contact #fullname, #contact #email, #contact #message{
+	opacity: 0.5;
+}
+
+
+@media only screen and (max-width: 580px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 28px;
+    line-height: inherit;
+  }
+
+  h3 {
+    font-size: 22px;
+    line-height: inherit;
+  }
+}
+
+/*---------------------------------------
+    Maps
+-----------------------------------------*/
+#maps{
+    width = 100%;
+    border:0;
+}
+
+
+/*---------------------------------------
+   Mobile Responsive
+-----------------------------------------*/
+
+@media only screen and (max-width: 767px) {
+  .custom-navbar .navbar-brand {
+    line-height: 18px;
+  }
+
+  #home .home-thumb {
+    height: auto;
+    padding-top: 32px;
+    padding-bottom: 12px;
+  }
+
+  #home .container,
+  #about .container,
+  #experience .container,
+  #service .container,
+  #education .container,
+  #contact .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  #about .col-lg-3,
+  #experience .col-lg-6,
+  #education .col-lg-6,
+  #contact .col-lg-3 {
+    padding: 0;
+    margin: 0;
+  }
+
+  .background-image {
+    position: relative;
+    min-height: 65vh;
+  }
+
+}
+
+@media only screen and (max-width: 1024px) {
+  .section-title {
+    padding-bottom: 12px;
+  }
+
+  footer {
+    padding: 40px 0;
+  }
+
+}

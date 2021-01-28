@@ -1,0 +1,9 @@
+/* Styling for blogging page */
+#post1 a, #post2 a, #post3 a{
+    color: #049069;
+}
+
+#post2 img{
+    max-width: 480px;
+    margin-left: 2vw;
+}
