@@ -4,6 +4,7 @@
 }
 
 #post2 img{
+    width: 100%;
     max-width: 480px;
     margin-left: 2vw;
 }
