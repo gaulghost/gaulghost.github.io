@@ -28,3 +28,11 @@ elmnt1.style.height = `${maximum}px`
 elmnt2.style.height = `${maximum}px`
 elmnt3.style.height = `${maximum}px`
 elmnt4.style.height = `${maximum}px`
+
+/*-------------------------------------------------------------------------------
+  Navigation - Hide mobile menu after clicking on a link
+-------------------------------------------------------------------------------*/
+
+  $('.navbar-collapse a').click(function(){
+      $(".navbar-collapse").collapse('hide');
+  });
