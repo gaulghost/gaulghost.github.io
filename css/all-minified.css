@@ -589,3 +589,14 @@ footer .footer-copyright a {
         padding-left: 20%;
     }
 }
+
+.avatarimg{
+    display: none;
+}
+
+.avatar{
+    vertical-align: middle;
+    height: auto;
+    width: 260px;
+    border-radius: 50%;
+}
