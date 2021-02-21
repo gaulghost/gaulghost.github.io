@@ -22,6 +22,9 @@ Copyright (c) 2014 Daniel Eden
 
 
 /* MAIN STYLE */
+@font-face {
+  font-display: swap;
+}
 #about .row,
 #contact .row,
 #education .row,
