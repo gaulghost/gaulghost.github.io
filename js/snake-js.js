@@ -11,9 +11,9 @@ var gameStart = null,
     snakeDirection = null,
     speedSize = 0,
     timer = null,
-    fruits = ["images/apple.png", "images/mango.png", "images/pear.png", "images/orange.png", "images/grapes.png", "images/pineapple.png", "images/bananas.png"];
+    fruits = ["images/snake/apple.png", "images/snake/mango.png", "images/snake/pear.png", "images/snake/orange.png", "images/snake/grapes.png", "images/snake/pineapple.png", "images/snake/bananas.png"];
 
-var newFruit = ["images/apple.png", "images/mango.png", "images/pear.png", "images/orange.png", "images/grapes.png", "images/pineapple.png", "images/bananas.png"];
+// var newFruit = ["images/apple.png", "images/mango.png", "images/pear.png", "images/orange.png", "images/grapes.png", "images/pineapple.png", "images/bananas.png"];
 var foodEaten = false
 var imageIndex = Math.floor(Math.random()*1000)%7;
 

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Weather App">
+    <meta name="keywords" content="PsN Pradhuman Weather Weatherly App WebApp">
+    <meta name="author" content="Pradhuman">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/weather.css">
+    <!-- LOGO -->
+    <link rel="icon" href="images/logo.png">
+</head>
+  <body>
+    <div class="container">
+      <div class="app-title">
+        <!-- <p>Weatherly</p> -->
+        <h1>Weather App</h1>
+        <input
+          id="search"
+          type="text"
+          placeholder="Enter Location or Latutude, Longitude"
+          autocomplete="off"
+        />
+        <div class="location-icon">
+          <img src="images/weather/location.png" alt="" />
+        </div>
+      </div>
+      <div class="notification"></div>
+      <div class="weather-container">
+        <div class="weather-icon">
+          <img src="images/weather/unknown.png" alt="" />
+        </div>
+        <div class="temperature-value">
+          <p>- °<span>C</span></p>
+        </div>
+        <div class="temperature-description">
+          <p>-</p>
+        </div>
+        <div class="location">
+          <p>-</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/weather.js"></script>
+  </body>
+</html>
