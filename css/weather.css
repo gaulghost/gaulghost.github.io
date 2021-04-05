@@ -1,12 +1,3 @@
-@font-face {
-    font-family: Montserrat;
-    src: url("font/Montserrat-SemiBold.ttf");
-}
-
-* {
-    font-family: "Montserrat";
-}
-
 body {
     background-image: url("../images/weather/bg.jpg");
     background-color: steelblue;
