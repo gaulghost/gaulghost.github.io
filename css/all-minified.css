@@ -603,3 +603,7 @@ footer .footer-copyright a {
     width: 260px;
     border-radius: 50%;
 }
+
+.custom-nav-text{
+    font-weight: 600 !important;
+}
