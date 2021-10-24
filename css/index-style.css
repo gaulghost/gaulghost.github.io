@@ -8,7 +8,7 @@
 
 #home .col-lg-6 {
   background: #f1e2d7;
-/* light blue color: #c3eafd; */
+  /* light blue color: #c3eafd; */
   padding-right: 0;
   padding-left: 0;
 }
@@ -34,30 +34,31 @@
   padding: 0 45px 0 45px;
 }
 
-#home .section-title h4{
-    color: rgba(0, 0, 0, 0.6);
-    font-weight: 600;
-    font-size: 16px
+#home .section-title h4 {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 600;
+  font-size: 16px
 }
 
-#home .section-title p{
-    font-weight: 500;
-    font-size: 18px;
-    padding-right: 20px;
-    color: rgba(0, 0, 0, 0.6);
+#home .section-title p {
+  font-weight: 500;
+  font-size: 18px;
+  padding-right: 20px;
+  color: rgba(0, 0, 0, 0.6);
 }
 
-#home .section-title h1{
-    color: rgba(0, 0, 0, 1);
+#home .section-title h1 {
+  color: rgba(0, 0, 0, 1);
 }
 
 
 /*---------------------------------------
-   About section
+ About section
 -----------------------------------------*/
 
 #about .about-img {
-    background: url('../images/about-img.jpg') no-repeat;
+  margin-top: -15%;
+  background: url('../images/about-img.jpg') no-repeat;
 }
 
 #about .about-thumb,
@@ -65,25 +66,25 @@
   padding: 22px 32px 32px 32px;
 }
 
-#about .about-thumb .myname{
-    color: #157A6E;
-    font-weight: 400;
+#about .about-thumb .myname {
+  color: #157A6E;
+  font-weight: 400;
 }
 
-#about .writtenup p{
-    font-weight: 400;
-    color: rgba(0, 0, 0, 0.6);
-    margin-bottom: 5px;
+#about .writtenup p {
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 5px;
 }
 
 #about .skill-thumb h2,
-#about .skill-thumb p{
-    font-weight: 500;
-    color: rgba(0, 0, 0, 0.8);
+#about .skill-thumb p {
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.8);
 }
 
-#about .skills-thumb span{
-    color: #000;
+#about .skills-thumb span {
+  color: #000;
 }
 
 #about .progress {
@@ -105,9 +106,8 @@
 }
 
 
-
 /*---------------------------------------
-    Service section
+  Service section
 -----------------------------------------*/
 
 #service {
@@ -115,23 +115,23 @@
 }
 
 #service p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 30px;
 }
 
-#service #service-coding a{
-    color: #157A6E;
+#service #service-coding a {
+  color: #157A6E;
 }
 
-#service #service-designing a{
-    color: #231F20;
+#service #service-designing a {
+  color: #231F20;
 }
 
 #service .service-thumb {
   padding: 52px 22px 52px 22px;
 }
 
-#service .service-thumb a{
+#service .service-thumb a {
   font-weight: 500;
 }
 
@@ -141,9 +141,8 @@
 }
 
 
-
 /*---------------------------------------
-    Experience section
+  Experience section
 -----------------------------------------*/
 
 #experience .experience-img {
@@ -159,27 +158,28 @@
   margin-right: 14px;
 }
 
-#experience small{
+#experience small {
   color: #030099;
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 70%;
 }
 
-#experience p a{
-    font-weight: 600;
-    color: rgba(0, 0, 0, 0.7);
+#experience p a {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 #experience .experience-thumb h2,
 #experience .experience-thumb h3,
 #experience .experience-thumb p,
-#experience .experience-thumb i{
-    font-weight: 500;
-    color: rgba(0, 0, 0, 0.7);
+#experience .experience-thumb i {
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 
 /*---------------------------------------
-    Education section
+  Education section
 -----------------------------------------*/
 
 #education {
@@ -189,9 +189,9 @@
 #education .education-thumb p,
 #education .education-thumb h2,
 #education .education-thumb h3,
-#education .education-thumb i{
-    font-weight: 500;
-    color: rgba(0, 0, 0, 0.8);
+#education .education-thumb i {
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 #education .education-img {
@@ -209,35 +209,36 @@
 
 #education small {
   color: #89023E;
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 70%;
 }
 
-#education p a{
-    font-weight: 600;
-    color: rgba(0, 0, 0, 0.7);
+#education p a {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 
 /*---------------------------------------
-   Quotes section
+ Quotes section
 -----------------------------------------*/
 
 #quotes {
-    background: url('../images/quotes-bg.jpg') 50% 0 repeat-y fixed;
-    background-size: cover;
-    background-position: center center;
-    color: #ffffff;
-    position: relative;
-    padding: 100px 0px;
+  background: url('../images/quotes-bg.jpg') 50% 0 repeat-y fixed;
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+  position: relative;
+  padding: 100px 0px;
 }
 
 #quotes .overlay {
-    background: #121212;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    opacity: 0.7;
+  background: #121212;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  opacity: 0.7;
 }
 
 #quotes .fa {
@@ -253,7 +254,7 @@
 
 
 /*---------------------------------------
-    Contact section
+  Contact section
 -----------------------------------------*/
 
 #contact {
@@ -267,8 +268,8 @@
 }
 
 #contact .contact-form a {
-    color: rgba(0, 0, 0, 0.7);
-    font-weight: 600;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 600;
 }
 
 #contact .contact-img {
@@ -281,15 +282,24 @@
   padding-bottom: 6px;
 }
 
-#contact .section-title p{
-    font-size: 18px;
-    color: #000000;
-    font-weight: 400;
+#contact .section-title p {
+  font-size: 18px;
+  color: #000000;
+  font-weight: 400;
 }
 
-#contact .form-control::-moz-placeholder{color:#ffffff;opacity:1}
-#contact .form-control:-ms-input-placeholder{color:#ffffff}
-#contact .form-control::-webkit-input-placeholder{color:#ffffff}
+#contact .form-control::-moz-placeholder {
+  color: #ffffff;
+  opacity: 1
+}
+
+#contact .form-control:-ms-input-placeholder {
+  color: #ffffff
+}
+
+#contact .form-control::-webkit-input-placeholder {
+  color: #ffffff
+}
 
 #contact .form-control {
   background: transparent;
@@ -330,57 +340,56 @@
   padding-right: 10px;
 }
 
-#contact label{
-	font-size: 18px;
-    color: #0A0A0A ;
-    font-weight: 700;
+#contact label {
+  font-size: 18px;
+  color: #0A0A0A;
+  font-weight: 700;
 }
 
-#contact #fullname, #contact #email, #contact #message{
-	opacity: 0.5;
+#contact #fullname,
+#contact #email,
+#contact #message {
+  opacity: 0.5;
 }
-
 
 @media only screen and (max-width: 580px) {
   h1 {
     font-size: 32px;
   }
-
   h2 {
     font-size: 28px;
     line-height: inherit;
   }
-
   h3 {
     font-size: 22px;
     line-height: inherit;
   }
 }
 
+
 /*---------------------------------------
-    Maps
+  Maps
 -----------------------------------------*/
-#maps{
-    width = 100%;
-    border:0;
+
+#maps {
+  width=100%;
+  border: 0;
 }
 
 
 /*---------------------------------------
-   Mobile Responsive
+ Mobile Responsive
 -----------------------------------------*/
 
 @media only screen and (max-width: 767px) {
   .custom-navbar .navbar-brand {
     line-height: 18px;
   }
-
   #home .home-thumb {
     height: auto;
     padding-top: 32px;
     padding-bottom: 12px;
   }
-
   #home .container,
   #about .container,
   #experience .container,
@@ -390,7 +399,6 @@
     padding-right: 15px;
     padding-left: 15px;
   }
-
   #about .col-lg-3,
   #experience .col-lg-6,
   #education .col-lg-6,
@@ -398,21 +406,28 @@
     padding: 0;
     margin: 0;
   }
-
   .background-image {
     position: relative;
     min-height: 65vh;
   }
-
 }
 
 @media only screen and (max-width: 1024px) {
   .section-title {
     padding-bottom: 12px;
   }
-
   footer {
     padding: 40px 0;
   }
+}
 
+.certificates {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 20px;
+}
+
+.certificates:hover{
+  color: rgba(0, 0, 0, 1);
 }
